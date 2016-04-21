@@ -57,27 +57,17 @@ body {
 
 
 
-a.link:link {
-    color: white;
-    padding: 3px;
-}
-a.link:visited {
-    color: #ec993d;
-    padding: 3px;
-}
-
 a:link {
-    color: #ec993d;
+    color: white;
     padding: 3px;
     text-decoration: none;
 }
 a:visited {
-    color: black;
+    color: #ec993d;
     text-decoration: none;
 }
 
 a:hover, a:active {
-
-    color: black;
     text-decoration: underline;
 }
+

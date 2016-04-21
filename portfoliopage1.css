@@ -77,6 +77,10 @@ a.link:visited {
     padding: 3px;
 }
 
+a.link:hover, a.link:active {
+    text-decoration: underline;
+}
+
 a:link {
     color: #ec993d;
     padding: 3px;
