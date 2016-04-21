@@ -1,17 +1,17 @@
-* {outline: solid yellow 1px}
+*{outline: solid yellow 1px;}
 
 .topbanner {
     height: 90px;
     width: 100%;
-    background-color: purple;
+    background-color: black;
 }
 
 .title {
     color: white;
     float: left;
-    margin-top: 13px;
+    margin-top: 20px;
     margin-left: 30px;
-    width: 100%;
+    width: 90%;
 }
 
 .porttitle {
@@ -21,26 +21,27 @@
 
 .menu {
     position: fixed;
-    bottom: 50px;
-    font-size: 15pt;
+    bottom: 0px;
+    font-size: 12pt;
     text-align: center;
     width: 100%;
-    color: purple;
-    padding: 5px;
-    background-color: purple;
+    color: white;
+    padding: 10px;
+    background-color: black;
+    float: left;
 }
 
 .boxes {
     float: left;
     width: 50%;
-    padding-top: 10px;
+    padding-top: 50px;
 }
 
 .options {
     margin-left: 30px;
     font-size: 25pt;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .subtitle {
@@ -60,17 +61,27 @@
 }
 
 
-
-
-a:link {
+a.link:link {
     color: white;
     padding: 3px;
 }
+a.link:visited {
+    color: #ec993d;
+    padding: 3px;
+}
+
+a:link {
+    color: Black;
+    padding: 3px;
+    text-decoration: none;
+}
 a:visited {
     color: black;
+    text-decoration: none;
 }
 
 a:hover, a:active {
-    background-color: black;
-    color: white;
+
+    color: black;
+    text-decoration: underline;
 }

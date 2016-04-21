@@ -1,1 +1,83 @@
-* {outline: solid yellow 1px;}
+
+
+.topbanner {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 90px;
+    width: 100%;
+    background-color: black;
+}
+
+.title {
+    color: white;
+    float: left;
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 99%;
+}
+
+.porttitle {
+    font-size: 40pt;
+    float: left;
+}
+
+.menu {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    font-size: 15pt;
+    text-align: center;
+    width: 100%;
+    color: white;
+    padding: 15px;
+    background-color: black;
+    float: left;
+    
+}
+
+.selfie {
+    max-width: 100%;
+}
+
+.paragraph {
+    margin-top: 100px;
+    margin-left: 23px;
+    font-size: 13pt;
+    width: 60%;
+    font-family: sans-serif;
+    font: bolder;
+    
+}
+
+body {
+    background-image: url("images/about.png");
+}
+
+
+
+
+a.link:link {
+    color: white;
+    padding: 3px;
+}
+a.link:visited {
+    color: #ec993d;
+    padding: 3px;
+}
+
+a:link {
+    color: #ec993d;
+    padding: 3px;
+    text-decoration: none;
+}
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+
+    color: black;
+    text-decoration: underline;
+}

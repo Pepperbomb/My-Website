@@ -1,0 +1,112 @@
+
+
+.topbanner {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 90px;
+    width: 100%;
+    background-color: black;
+}
+
+.title {
+    color: white;
+    float: left;
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 99%;
+}
+
+.porttitle {
+    font-size: 40pt;
+    float: left;
+}
+
+.menu {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    font-size: 15pt;
+    text-align: center;
+    width: 100%;
+    color: white;
+    padding: 15px;
+    background-color: black;
+    float: left;
+    
+}
+
+.camera {
+    margin-top: 12px;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+.boxes {
+    float: left;
+    width: 50%;
+    padding-top: 120px;
+}
+
+.options {
+    font-size: 25pt;
+    text-align: center;
+    width: 100%;
+}
+
+
+
+a.camera:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+    display: inline-block;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    transition: 0.3s;
+}
+
+
+a.link:link {
+    color: white;
+    padding: 3px;
+    text-decoration: none;
+}
+a.link:visited {
+    color: #ec993d;
+    padding: 3px;
+}
+
+a:link {
+    color: #ec993d;
+    padding: 3px;
+    text-decoration: underline;
+}
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+
+    color: black;
+    text-decoration: underline;
+}
+
+
+
+@media only screen and (max-width: 900px){
+    .boxes {
+        width: 100%;
+    }
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
