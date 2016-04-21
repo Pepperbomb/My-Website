@@ -41,20 +41,21 @@ body {
     background-image: url("images/shoess.png");
 }
 
-a.link:link {
+a.menu:link {
     color: white;
     padding: 3px;
     text-decoration: none;
 }
-a.link:visited {
+a:hover {
     color: #ec993d;
     padding: 3px;
+    text-decoration: underline;
 }
 
 a:link {
     color: #ec993d;
     padding: 3px;
-    text-decoration: underline;
+    text-decoration: none;
 }
 a:visited {
     color: black;
